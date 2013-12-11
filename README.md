@@ -28,7 +28,8 @@ seq('a', 7, function(list, index) {
 ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 
 ```js
-// 4 iterations, step is 1, filtered to evens only with filter function (return true if it gets to stay)
+// 4 iterations, step is 1, filtered to evens only with filter function
+// (return true if it gets to stay)
 seq(0, 4, 1, function(x) {
 	return x % 2 == 0;
 }); // seq / filter

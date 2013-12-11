@@ -5,6 +5,8 @@ simple and primitive array / list generation - a poor man's list comprehension
 
 Basic Usage
 -----------
+npm install list-sequence
+
 ```js
 var seq = require('sequence');
 

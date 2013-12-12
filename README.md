@@ -8,7 +8,7 @@ Basic Usage
 npm install list-sequence
 
 ```js
-var seq = require('sequence');
+var seq = require('list-sequence');
 
 // 4 iterations, default step is 1
 seq(0, 4);
